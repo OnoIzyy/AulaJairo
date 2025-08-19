@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top,#001f3f,#0074D9);
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+.container{
+    position: relative;
+    width: 200px;
+    height: 100%;
+    text-align: center;
+}
+#foguete{
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    transition: bottom 3s ease-in;
+}
+
+button{
+    position: absolute;
+    bottom:20px;
+    left: 50%;
+    transform:translateX(-50%);
+    padding: 10px 20px;
+    background-color: #ff4136;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index:1;
+}
