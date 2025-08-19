@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background: linear-gradient(to top,#001f3f,#0074D9);
@@ -10,20 +10,20 @@ body{
     font-family: sans-serif;
 
 }
-.container{
+.container {
     position: relative;
     width: 200px;
     height: 100%;
     text-align: center;
 }
-#foguete{
+#foguete {
     width: 100px;
     position: absolute;
     bottom: 0;
     transition: bottom 3s ease-in;
 }
 
-button{
+button {
     position: absolute;
     bottom:20px;
     left: 50%;
